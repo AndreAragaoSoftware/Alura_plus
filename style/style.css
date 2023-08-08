@@ -14,3 +14,17 @@
 body {
     background-color: var(--cor-de-fundo);
 }
+
+.principal {
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
+
+.titulo {
+    color: var(--branco-principal);
+}
