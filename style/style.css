@@ -26,6 +26,8 @@ body {
     background-image: url("../assets/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -36,7 +38,7 @@ body {
 
 .container__caixa {
     margin: 0 6em;
-
+}
 .container__titulo {
     color: var(--branco-principal);
     font-size: 28px;
@@ -64,4 +66,29 @@ body {
 .container__aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__img {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-family: var(--fonte-principal);
+    color: var(--branco-principal);
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 16px;
 }
