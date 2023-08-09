@@ -34,9 +34,16 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container__caixa {
+    margin: 0 6em;
+
 .container__titulo {
     color: var(--branco-principal);
     font-size: 28px;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
 }
 
 .container__botao {
@@ -46,6 +53,7 @@ body {
     border-radius: 5px;
     padding: 1em;
     display: block;
+    margin: 1em;
 }
 
 .botao_secundario {
