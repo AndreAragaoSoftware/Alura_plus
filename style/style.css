@@ -13,6 +13,7 @@
   --botao-azul: #167bf7;
   --cor-de-fundo: #00030c;
   --fonte-principal: 'Inter';
+  --botao-azul-efeito: #3c92fa;
 }
 
 body {
@@ -132,11 +133,11 @@ body {
 
 .rodape {
     text-align: center;
+    margin: 0 3em;
 }
 
 .rodape__logo {
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 2em;
 }
 
 .rodape__lista {
@@ -149,10 +150,19 @@ body {
   list-style-type: none;
   font-family: var(--fonte-principal);
   color: var(--branco-principal);
-  padding: 10px;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 10px;
+ 
+}
+
+/* Efeitos Pseudo-classes*/
+
+.lista__link a:hover {
+  color: var(--botao-azul);
+}
+
+.lista__link a:active {
+  color: aquamarine;
 }
 
 .rodape__texto {
@@ -160,5 +170,10 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: var(--cinza-secundario);
-  margin-bottom: 20px;
+  
+}
+
+.container__botao:hover {
+  background-color: var(--botao-azul-efeito);
+  color: var(--cor-de-fundo);
 }
