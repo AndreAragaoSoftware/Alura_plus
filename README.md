@@ -35,7 +35,7 @@ yarn start
 ## Site em execução
 https://alura-plus-opal-one.vercel.app/
 
-##Figman
+## Figman
 https://www.figma.com/file/tFDVyNuKhrT2G03k2dCstW/Alura-Plus---Layout?node-id=1%3A77&mode=dev
 # Autor
 
