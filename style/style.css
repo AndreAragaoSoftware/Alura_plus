@@ -134,6 +134,11 @@ body {
     text-align: center;
 }
 
+.rodape__logo {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
 .rodape__lista {
   display: flex;
   justify-content: center;
@@ -142,8 +147,18 @@ body {
 .lista__link {
   text-decoration: none;
   list-style-type: none;
+  font-family: var(--fonte-principal);
   color: var(--branco-principal);
   padding: 10px;
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.rodape__texto {
+  font-family: var(--fonte-principal);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--cinza-secundario);
+  margin-bottom: 20px;
 }
