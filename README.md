@@ -20,7 +20,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/AndreAragaoSoftware/Alura_plus
 
 # entrar na pasta do projeto Alura plus
 cd Alura_plus
@@ -35,7 +35,7 @@ yarn start
 ## Site em execução
 https://alura-plus-opal-one.vercel.app/
 
-## Figman
+## Figma
 https://www.figma.com/file/tFDVyNuKhrT2G03k2dCstW/Alura-Plus---Layout?node-id=1%3A77&mode=dev
 # Autor
 
